@@ -1,0 +1,98 @@
+<style>
+    body {
+        background-color: #ffd5f4;
+    }
+
+    #dv_01 {
+        width: 344px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.0);
+        text-align: center;
+        font-size: 26px;
+        position: absolute;
+        top: 10px;
+        color: #ffffff;
+        transition-property: all;
+        transition-duration: 1.5s;
+    }
+
+    #dv_01:hover {
+        width: 344px;
+        height: 100px;
+        font-size: 50px;
+        position: absolute;
+        top: 100px;
+    }
+
+    .img {
+        width: 108.5px;
+        height: 117;
+        animation: img 2s infinite;
+        transform-origin: bottom center;
+    }
+
+    @keyframes img {
+        0% {
+            transform: rotate(25deg);
+        }
+
+        /* 25% {
+            transform: rotate(25deg);
+        } */
+
+        50% {
+            transform: rotate(-25deg);
+        }
+
+        /* 75% {
+            transform: rotate(-25deg);
+        } */
+
+        100% {
+            transform: rotate(25deg);
+        }
+    }
+
+    #img_01 {
+        position: absolute;
+        top: 200px;
+        left: 15px;
+    }
+
+    #img_02 {
+        position: absolute;
+        top: 200px;
+        left: 235px;
+    }
+
+    #img_03 {
+        position: relative;
+        top: 400px;
+        left: 5px;
+    }
+
+    #img_04 {
+        position: relative;
+        top: 400px;
+        left: 115px;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <div id="dv_01">
+        🎂生日快乐🎂
+    </div>
+
+    <div id="dv_02">
+        <img id="img_01" class="img" src="./下载.jpg" / alt="爱莉希雅">
+        <img id="img_02" class="img" src="./下载.jpg" / alt="爱莉希雅">
+        <img id="img_03" class="img" src="./下载.jpg" / alt="爱莉希雅">
+        <img id="img_04" class="img" src="./下载.jpg" / alt="爱莉希雅">
+    </div>
+
+</body>
+
+</html>
