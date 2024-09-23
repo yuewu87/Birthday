@@ -1,82 +1,87 @@
-<!DOCTYPE html>
 <html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>生日快乐🎂</title>
 
-<head>
-    <meta charset="utf-8" name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>🎂生日快乐🎂</title>
+<style>
+    body {
+        background-color: #ffd5f4;
+    }
 
-    <style>
-        body {
-            background-color: #ffd5f4;
+    #dv_01 {
+        width: 344px;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.0);
+        text-align: center;
+        font-size: 26px;
+        position: absolute;
+        top: 10px;
+        color: #ffffff;
+        transition-property: all;
+        transition-duration: 1.5s;
+    }
+
+    #dv_01:hover {
+        width: 344px;
+        height: 100px;
+        font-size: 50px;
+        position: absolute;
+        top: 100px;
+    }
+
+    .img {
+        width: 108.5px;
+        height: 117;
+        animation: img 2s infinite;
+        transform-origin: bottom center;
+    }
+
+    @keyframes img {
+        0% {
+            transform: rotate(0deg);
         }
 
-        #dv_01 {
-            width: 950px;
-            height: 150px;
-            background-color: rgba(0, 0, 0, 0.0);
-            text-align: center;
-            font-size: 50px;
-            position: absolute;
-            top: 10px;
-            color: #ffffff;
-            transition-property: all;
-            transition-duration: 1.5s;
+        25% {
+            transform: rotate(25deg);
         }
 
-        #dv_01:hover {
-            width: 950px;
-            height: 150px;
-            font-size: 100px;
-            position: absolute;
-            top: 150px;
+        50% {
+            transform: rotate(0deg);
         }
 
-        .img {
-            width: 325.5px;
-            height: 351px;
-            animation: img 2s infinite;
-            transform-origin: bottom center;
+        75% {
+            transform: rotate(-25deg);
         }
 
-        @keyframes img {
-            0% {
-                transform: rotate(25deg);
-            }
-
-            50% {
-                transform: rotate(-25deg);
-            }
-
-            100% {
-                transform: rotate(25deg);
-            }
+        100% {
+            transform: rotate(0deg);
         }
+    }
 
-        #img_01 {
-            position: absolute;
-            top: 400px;
-            left: 20px;
-        }
+    #img_01 {
+        position: absolute;
+        top: 200px;
+        left: 15px;
+    }
 
-        #img_02 {
-            position: absolute;
-            top: 400px;
-            left: 620px;
-        }
+    #img_02 {
+        position: absolute;
+        top: 200px;
+        left: 235px;
+    }
 
-        #img_03 {
-            position: absolute;
-            top: 800px;
-            left: 20px;
-        }
+    #img_03 {
+        position: relative;
+        top: 400px;
+        left: 5px;
+    }
 
-        #img_04 {
-            position: absolute;
-            top: 800px;
-            left: 620px;
-        }
-    </style>
+    #img_04 {
+        position: relative;
+        top: 400px;
+        left: 115px;
+    }
+</style>
 
 </head>
 
