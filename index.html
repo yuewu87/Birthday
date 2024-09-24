@@ -1,142 +1,164 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	<meta charset="utf-8"> 
+
+<head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>🎂生日快乐🎂</title>
-    
+    <title>🎂生日快乐🎂</title>
+
     <style>
-      body{
-        background-color:#ffd5f4;
+        body {
+            background-image: linear-gradient(to right, #ff78c8, #7cb2ff);
         }
-      
-      #dv_01{
-        width:344px;
-        height:50px;
-        background-color:rgba(0,0,0,0);
-        text-align:center;
-        font-size:26px;
-        position:absolute;
-        top:10px;
-        color:#ffffff;
-        transition-property:all;
-        transition-duration:1.5s;
+
+        #dv_01 {
+            width: 344px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            font-size: 26px;
+            position: absolute;
+            top: 10px;
+            color: #ffffff;
+            transition-property: all;
+            transition-duration: 1.5s;
         }
-      
-      #dv_01:hover{
-        width:344px;
-        height:100px;
-        font-size:50px;
-        position:absolute;
-        top:100px;
+
+        #dv_01:hover {
+            width: 344px;
+            height: 100px;
+            font-size: 50px;
+            position: absolute;
+            top: 100px;
         }
-      
-      .img{
-        width:108.5px;
-        height:117;
-        animation: img 2s infinite;
-        transform-origin: bottom center;
+
+        .img {
+            width: 108px;
+            height: 108px;
+            animation: img 2s infinite;
+            transform-origin: bottom center;
         }
-      
-      @keyframes img{
-        0%{
-          transform:rotate(25deg);
-          }
-        50%{
-          transform:rotate(-25deg);
-          }
-        100%{
-          transform:rotate(25deg);
-          }
+
+        @keyframes img {
+            0% {
+                transform: rotate(25deg);
+            }
+
+            50% {
+                transform: rotate(-25deg);
+            }
+
+            100% {
+                transform: rotate(25deg);
+            }
         }
-      
-      #img_01{
-        position:absolute;
-        top:200px;
-        left:15px;
+
+        #img_01 {
+            position: absolute;
+            top: 200px;
+            left: 15px;
         }
-      
-       #img_02{
-        position:absolute;
-        top:200px;
-        left:235px;
+
+        #img_02 {
+            position: absolute;
+            top: 200px;
+            left: 235px;
         }
-      
-       #img_03{
-        position:absolute;
-        top:450px;
-        left:15px;
+
+        #img_03 {
+            position: absolute;
+            top: 450px;
+            left: 15px;
         }
-      
-       #img_04{
-        position:absolute;
-        top:450px;
-        left:235px;
+
+        #img_04 {
+            position: absolute;
+            top: 450px;
+            left: 235px;
         }
-      
-      .imgg{
-        position:absolute;
-        top:320px;
-        left:125px;
-        width:108.5px;
-        height:117;
-        animation: imgg 2s infinite;
+
+        #img_05 {
+            position: absolute;
+            top: 320px;
+            left: 125px;
+            width: 108px;
+            height: 108px;
+            animation: imgg 2s infinite;
         }
-      
-      @keyframes imgg{
-        0%{
-          transform:rotate(0deg) scale(0.5);
-          }
-        100%{
-          transform:rotate(360deg) scale(1);
-          }
+
+        @keyframes imgg {
+            0% {
+                transform: rotate(0deg) scale(0.5);
+            }
+
+            100% {
+                transform: rotate(360deg) scale(1);
+            }
         }
-      
-      #p_01{
-        width:344px;
-        height:100px;
-        background-color:rgba(0,0,0,0);
-        text-align:center;
-        font-size:26px;
-        color:rgba(255,255,0,1);
-        opacity:0.5;
-        position:absolute;
-        top:40px;
-        animation: pp 2s infinite;
+
+        #p_01 {
+            width: 344px;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            font-size: 26px;
+            color: rgba(255, 255, 0, 1);
+            opacity: 0.5;
+            position: absolute;
+            top: 40px;
+            animation: pp 2s infinite;
         }
-      
-     @keyframes pp{
-       0%{
-         opacity:0.5;
-         }
-       50%{
-         opacity:1;
-         }
-       100%{
-         opacity:0.5;
-         }
-       }
-      
+
+        @keyframes pp {
+            0% {
+                opacity: 0.5;
+            }
+
+            50% {
+                opacity: 2;
+            }
+
+            100% {
+                opacity: 0.5;
+            }
+        }
+
+        #but {
+            position: absolute;
+            top: 120px;
+            left: 135px;
+            color: rgba(255, 255, 0, 1);
+            background-color: rgba(255, 210, 235, 1);
+            border: 2px solid rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
     </style>
-    
-  </head>
-  <body>	
-  
+
+</head>
+
+<body>
+
     <div id="dv_01">
-      🎂生日快乐🎂
+        🎂生日快乐🎂
     </div>
-    
+
     <div id="dv_02">
-      <img id="img_01" class="img" src="./下载.jpg"/ alt="爱莉希雅">
-      <img id="img_02" class="img" src="./下载.jpg"/ alt="爱莉希雅">
-      <img id="img_03" class="img" src="./下载.jpg"/ alt="爱莉希雅">
-      <img id="img_04" class="img" src="./下载.jpg"/ alt="爱莉希雅">
-      <img id="img_05" class="imgg" src="./下载.jpg"/ alt="爱莉希雅">
+        <img id="img_01" class="img" src="./img_01.jpg" alt="爱莉希雅" />
+        <img id="img_02" class="img" src="./img_02.jpg" alt="爱莉希雅" />
+        <img id="img_03" class="img" src="./img_01.jpg" alt="爱莉希雅" />
+        <img id="img_04" class="img" src="./img_02.jpg" alt="爱莉希雅" />
+        <img id="img_05" src="./img_03.jpg" alt="爱莉希雅" />
     </div>
-    
+
     <div>
-      <p id="p_01">恭喜"浅夏夜沫"又老一岁</p>
+        <p id="p_01">恭喜"郑怡帆"又老一岁</p>
+        <a
+            href="https://jm-gdown.baidu.com/appcenter/pkg/upload/08a575f332c7aaef4b7278c60b2422ca?md5hash=bf5912fca81711ed348830e3a154b20c&timestamp=1727151014">
+            <button id="but">点击庆贺短片</button>
+        </a>
     </div>
-    
-  </body>
+
+</body>
+
 </html>
